@@ -4,7 +4,7 @@ import pyodbc
 app = Flask(__name__)
 
 def search_database(query):
-    db_path = r"C:\CSC522\IR_System.accdb"
+    db_path = r"IR_System.accdb"
     conn_str = r"DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=" + db_path + ";"
     results = []
     
